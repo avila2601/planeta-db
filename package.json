@@ -1,11 +1,13 @@
 {
-  "name": "planeta-api",
+  "name": "planeta-db",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Fake API for Planeta Predictor",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch db.json --port 10000"
   },
   "dependencies": {
     "json-server": "^0.17.3"
   }
 }
+
